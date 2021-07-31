@@ -42,7 +42,7 @@ const server = createServer(async (req, res) => {
 
   async function sendFile(file, {
     status = 200, directory = './pages'
-  }) {
+  } = {}) {
     let content = await readFile(directory + '/' + file);
 
     res.writeHead(status, {
