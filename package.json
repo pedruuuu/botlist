@@ -2,5 +2,11 @@
   "name": "Botlist",
   "version": "0.0.1-beta",
   "main": "server.js",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "14.x"
+  }
 }
