@@ -62,9 +62,6 @@ const server = createServer(async (req, res) => {
 
   if (route) await route(req, res);
 
-  console.log(routes)
-
-
   res.end();
 });
 
